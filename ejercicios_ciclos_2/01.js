@@ -15,3 +15,31 @@ Output: ‘L’
 
 let letras = "T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E";
 
+let divisor = Math.ceil(Math.random() * 23);
+
+let dni = Number(prompt('Ingrese su DNI, sin puntos ni espacios'));
+
+let resultado = 0;
+
+
+while(isNaN(dni)){
+    alert("Solo se admiten numeros")
+    dni = Number(prompt('Ingrese su DNI nuevamente, sin puntos ni espacios'));
+}
+
+while(dni > 99999999){
+    alert("Solo se admite hasta el numero 99.999.999")
+    dni = Number(prompt('Ingrese su DNI nuevamente, sin puntos ni espacios'));
+}
+
+letras = letras.split(" ");
+
+do {
+    resultado = dni % divisor;
+
+    alert(`La letra asignada a su DNI es la letra ${letras.at(resultado)}`)
+
+    dni = Number(prompt('Ingrese su DNI, sin puntos ni espacios'));
+    
+} while (dni);
+
