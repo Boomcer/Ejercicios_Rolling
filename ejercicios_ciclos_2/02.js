@@ -15,11 +15,33 @@ cada 5 líneas muestre una línea horizontal. Por ejemplo :
 */
 
 let numeros = 1;
-let resto = 0;
+let resto1 = 0;
+let resto2 = 0;
+let resto3 = 0;
 
 do {
 
-    resto  = numeros 
+    resto1 = numeros % 4;
+    resto2 = numeros % 9;
+    resto3 = numeros % 5;
+
+    if (resto1 === 0) {
+        document.write(`${numeros} (Múltiplo de 4 ) <br>`);
+    }
+
+    else if (resto2 === 0) {
+        document.write(`${numeros} (Múltiplo de 9) <br>`)
+    } 
     
-} while (numeros === 500);
+    else {
+        document.write(`${numeros} <br/>`)
+    }
+
+    if (resto3 === 0) {
+        document.write(`<hr/>`)
+    }
+
+    numeros ++
+    
+} while (numeros <= 500);
 
