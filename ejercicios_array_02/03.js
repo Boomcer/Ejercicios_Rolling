@@ -6,8 +6,15 @@ se debe mostrar mensaje en consola.
 */
 
 function numRandom() {
-   let num = Math.ceil(Math.random() * 10);
+    return num = Math.ceil(Math.random() * 10);
 }
 
-console.log(numRandom);
 
+let respuesta = Number(prompt("Intente adivinar el numero aleatorio, debe ser entre el 1 y el 10"));
+
+if(respuesta === numRandom()){
+    console.log("Felicidades adivinaste");
+}
+else{
+    console.log(`Lo siento el numero correcto era el: ${numRandom()}`);
+}
