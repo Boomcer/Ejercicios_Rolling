@@ -5,21 +5,7 @@ distancia con el sol, debes mostrar en consola el nombre del último planeta apl
 planetas=["Mercurio","Venus","Tierra","Marte","Júpiter","Saturno","Urano","Neptuno"]
 */
 
-/* Ejercicio 4
-Dado el array de pilotos de Fórmula 1, agrega los nombres de 'Sergio Pérez' y 'George Russell' después de 'Max Verstappen'.
-*/
 
-/* Ejercicio 5
-Dado el array de pilotos de Fórmula 1, reemplazar 'Fernando Alonso' con 'Carlos Sainz'.
-*/
-
-/* Ejercicio 6
-En un colegio hay tres comisiones distintas con 5 alumnos cada una, debido a cambios en los horarios se deben unir las comisiones en una sola llamada 'comisionNueva'. Luego imprimir los nombres de los alumnos de la nueva comisión.
-*/
-
-/* Ejercicio 7
-Crea un script que te permita agregar el nombre de varias ciudades en un array hasta que presiones cancelar, luego deberas mostrar en consola los nombres de dichas ciudades ordenadas alfabéticamente
-*/
 
 /*  Ejercicio 8
 En un array se encuentra la lista de jugadores de un equipo de futbol, pero algunos de la lista estarán de suplentes en el próximo partido. Crea un nuevo array llamado 'suplentes' basado en dicha lista que contenga los nombres de los tres primeros jugadores.
